@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    place-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1,h2{
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cria 3 colunas de largura igual */
+    gap: 20px; /* Define o espaçamento entre as colunas */
+    height: auto;
+    border-radius: 35px;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.item {
+    margin-left: 100px;
+    padding: 20px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: rgb(11, 5, 117);
+    border-radius: 35px;
+}
+
+
+.button2{
+    width: 100px;
+    height: 40px;
+    margin-left: 15.5rem;
+    margin-top: 38px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.caixa{
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    margin-left: 8.5rem;
+    width: 3rem;
+    padding: 1px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+select{
+    margin-top: 10px;
+    color: black;
+    margin-left: 7.7rem;
+    width: 5rem;
+    padding: 1px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+span{
+    margin-left: 80px;
+    margin-top: 15px;
+    color: #eee;
+ }
+ p{
+    color: white;
+ }
